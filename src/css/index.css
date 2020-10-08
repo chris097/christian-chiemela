@@ -1,0 +1,26 @@
+.background-design .circle-red{
+    position: fixed;
+    animation: move 6s infinite ease-in-out;
+}
+
+.background-design .circle-blue{
+    position: fixed;
+    animation: troll 6s infinite ease-in-out;
+}
+
+.banner{
+    padding-top: 150px;
+    line-height: .5;
+}
+
+.banner > h2{
+    font-size: 30px;
+    color: #ffcef3;
+}
+.banner > h1{
+    font-size: 70px;
+}
+.banner  p{
+    font-size: 30px;
+    line-height: 1.5;
+}

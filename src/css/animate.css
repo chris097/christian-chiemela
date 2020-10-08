@@ -1,0 +1,14 @@
+@keyframes move {
+    0%   {top: 0px; left: 0px;;}
+    25%  {top: 0px; left: 60%;}
+    50%  {top: 60%; left: 100px;}
+    75%  {top: 60%; left: 0}
+    100% {top: 0px; left: 0px;}
+}
+@keyframes troll {
+    0%   {top: 0px; right: 0px;;}
+    25%  {top: 0px; right: 60%;}
+    50%  {top: 60%; right: 100px;}
+    75%  {top: 60%; right: 0}
+    100% {top: 0px; right: 0px;}
+}

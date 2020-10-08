@@ -1,0 +1,24 @@
+header .navbar{
+    text-align: end;
+    float: right;
+}
+
+header .navbar .navbar-link{
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 20px;
+}
+
+header .navbar .navbar-link li{
+    padding: 15px;
+}
+
+header .navbar .navbar-link .hire-me{
+    background-color: #ff304f;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+header .navbar .navbar-link .hire-me:hover{
+    background-color: #f7e8e8;
+}
