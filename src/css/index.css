@@ -11,6 +11,8 @@
 .banner{
     padding-top: 150px;
     line-height: .5;
+    animation: banner 1s ease-in-out;
+    position: relative;
 }
 
 .banner > h2{
@@ -23,4 +25,24 @@
 .banner  p{
     font-size: 30px;
     line-height: 1.5;
+}
+
+.banner .btn{
+    border: #750113 3px solid;
+    background-color: transparent;
+    color: #ff304f;
+    font-size: 20px;
+    display: flex;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.banner .btn:hover{
+    border: #ff304f 3px solid;
+}
+.banner .btn img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 2px;
 }
