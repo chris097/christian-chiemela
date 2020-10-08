@@ -1,6 +1,7 @@
 header .navbar{
     text-align: end;
     float: right;
+    z-index: 999;
 }
 
 header .navbar .navbar-link{

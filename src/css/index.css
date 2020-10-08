@@ -9,10 +9,10 @@
 }
 
 .banner{
-    padding-top: 150px;
+    margin-top: 150px;
     line-height: .5;
-    animation: banner 1s ease-in-out;
     position: relative;
+    animation: move-in 1s ease-in-out;
 }
 
 .banner > h2{
@@ -28,21 +28,24 @@
 }
 
 .banner .btn{
-    border: #750113 3px solid;
+    border: #750113 4px solid;
     background-color: transparent;
-    color: #ff304f;
     font-size: 20px;
     display: flex;
     padding: 25px;
     border-radius: 5px;
 }
 
-.banner .btn:hover{
-    border: #ff304f 3px solid;
+.banner .btn a{
+    color: #ff304f;
 }
-.banner .btn img{
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
-    margin-top: 2px;
+
+.banner .btn:hover{
+    border: #ff304f 4px solid;
+}
+.banner .btn a > img{
+    width: 25px;
+    height: 25px;
+    margin-left: 2px;
+    padding-top: 11.833px;
 }
