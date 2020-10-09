@@ -211,8 +211,7 @@
 }
 
 @media screen and (max-width: 600px){
-    #projects .project-container .project-image,
-    #projects .project-container .project-image .col-1 img{
+    #projects .project-container .project-image{
         width: 200px;
         height: 150px;
         margin-top: 50px;
