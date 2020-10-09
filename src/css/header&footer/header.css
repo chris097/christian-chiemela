@@ -23,3 +23,21 @@ header .navbar .navbar-link .hire-me{
 header .navbar .navbar-link .hire-me:hover{
     background-color: #f7e8e8;
 }
+
+header .menu{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    header .navbar{
+        display: none;
+    }
+    header .menu{
+        display: block;
+    }
+}
