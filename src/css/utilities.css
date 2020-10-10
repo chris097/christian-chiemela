@@ -1,6 +1,7 @@
 .container{
     max-width: 80%;
     margin: 0 auto;
+    z-index: 999;
 }
 
 a{
@@ -23,6 +24,7 @@ ul{
 .column{
     max-width: 800px;
     margin: 0 auto;
+    z-index: 999;
 }
 
 .box{
@@ -36,5 +38,5 @@ ul{
     height: 30px;
     float: right;
     margin-top: 10px;
-    z-index: 666;
+    z-index: 999;
 }

@@ -41,3 +41,43 @@ header .menu{
         display: block;
     }
 }
+
+/* Mobile menu */
+
+.menu-modal{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background-color: #021125;
+    z-index: 9999;
+    padding-left: 30px;
+    display: none;
+    animation: menu-slider 1s ease-in-out;
+}
+
+.menu-modal .modal-navbar{
+    padding-top: 40px;
+}
+
+.menu-modal .modal-navbar li{
+    margin-top: 15px;
+}
+
+.menu-modal .modal-navbar li a{
+    font-size: 25px;
+}
+
+.menu-modal .modal-navbar .hire-me{
+    width: 100px;
+    padding: 5px;
+    background-color: #ff304f;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
+
+.close-menu{
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}

@@ -157,10 +157,14 @@
     margin-left: 150px;
 }
 
+#projects .project-container-1,
 #projects .project-container{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
+}
+#projects .project-container-1{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #projects .project-container .project-image{
@@ -172,7 +176,7 @@
     border-radius: 5px;
     opacity: .4;
 }
-#projects .project-container .project-image-1{
+#projects .project-container-1 .project-image-1{
     width: 430px;
     height: 300px;
     background: url('../img/mainone.png') no-repeat center center/cover;
@@ -190,7 +194,7 @@
     border-radius: 5px;
     opacity: .4;
 }
-#projects .project-container .project-image:hover,
+#projects .project-container-1 .project-image:hover,
 #projects .project-container .project-image-1:hover{
     opacity: .7;
 }
@@ -206,7 +210,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#projects .project-container .project-image-1 .col-1 img{
+#projects .project-container-1 .project-image-1 .col-1 img{
     width: 430px;
     height: 300px;
     position: absolute;
@@ -219,44 +223,55 @@
 }
 
 
+#projects .project-container-1 .project-text,
 #projects .project-container .project-text{
     width: 400px;
     font-size: 18px;
     margin-top: 40px;
 }
 
+#projects .project-container-1 .project-text h1,
 #projects .project-container .project-text h1{
     color: #ff304f;
     font-size: 35px;
 }
 
+#projects .project-container-1 .project-text .flex-end,
 #projects .project-container .project-text .flex-end{
     text-align: end;
     font-size: 15px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
+    #projects .project-container-1,
     #projects .project-container{
         flex-direction: column;
     }
+    #projects .project-container .project-text,
+    #projects .project-container-1 .project-text{
+        width: 100%;
+    }
+    #projects .project-container-1 .project-image-1{
+        margin-left: 100px;
+    }
+    #projects .project-container-1{
+        margin-bottom: 150px;
+    }
     #projects .project-container .project-text{
         margin-top: 100px;
-        width: 100%;
     }
 }
 
 @media screen and (max-width: 600px){
     #projects .project-container .project-image,
     #projects .project-container .project-image .col-1 img,
-    #projects .project-container .project-image-1,
-    #projects .project-container .project-image-1 .col-1 img{
+    #projects .project-container-1 .project-image-1,
+    #projects .project-container-1 .project-image-1 .col-1 img{
         width: 200px;
         height: 150px;
         margin-top: 50px;
     }
-    #projects .project-container .project-image-1{
-        margin-left: 100px;
-    }
+    #projects .project-container-1 .project-text,
     #projects .project-container .project-text{
         margin-top: 50px;
     }
@@ -266,15 +281,26 @@
     .line{
         margin-top: 18px;
     }
+    #projects .project-container-1{
+        margin-top: -60px;
+        margin-bottom: 50px;
+    }
 }
 
 /* contact */
 #contact{
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.contact-box{
     background-color: #750113;
-    margin: 100px auto;
     width: 400px;
     height: 150px;
+    margin: 0 auto;
 }
 #contact .container h1{
     font-size: 35px;
@@ -293,7 +319,10 @@
 
 @media screen and (max-width: 600px){
     #contact{
-        width: 300px;
+        margin-top: 40px;
+    }
+    .contact-box{
+        width: 100%;
     }
     #contact .container h1{
         font-size: 25px;
