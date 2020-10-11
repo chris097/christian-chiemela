@@ -300,6 +300,9 @@
         margin-top: -60px;
         margin-bottom: 50px;
     }
+    .flex-end span{
+        line-height: 20px;
+    }
 }
 
 /* contact */
