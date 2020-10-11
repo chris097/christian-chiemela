@@ -14,7 +14,7 @@ body{
     text-size-adjust: 100%;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    z-index: 888;
+    z-index: 1;
 }
   *,
   *::before,
